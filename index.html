@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce</title>
+    <link rel="icon" type="image/svg" href="cart-shopping-solid.svg" sizes="48x48">
+    <link rel="stylesheet" href="style.css">
+    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<!-------------------------Upper Boader---------------------->
+
+<body onload="slider()">
+    <div class="upper_boader">
+        <button type="button" class="bttm">Buy Now</button>
+    </div>
+    <!-------------------------nav bar---------------------------->
+    <nav class="bar">
+        <ul class="bar-ul">
+            <li class="bar-li"><a href="#Men.html">Men</a></li>
+            <li class="bar-li"><a href="#women.html">Women</a></li>
+            <li class="bar-li"><a href="#beauty.html">Beauty</a></li>
+            <li class="bar-li"><a href="#sport.html">Sport</a></li>
+            <li class="bar-li"><a href="#Templates.html">Templates</a></li>
+            <li class="bar-li"><a href="#Explore.html">Explore</a></li>
+        </ul>
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            <i class="fa-regular fa-user fa-lg"></i>
+            <i class="fa-solid fa-cart-shopping fa-lg"></i>
+        </div>
+    </nav>
+    <!-------------------------promo slider--------------------->
+
+    <!-- <section class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="slide-1.jpg">
+                <img id="slide-2" src="slide-2.png">
+                <img id="slide-3" src="slide-3.jpg">
+            </div>
+            <div class="slider-nav">
+                <a href="#slider-1"></a>
+                <a href="#slider-2"></a>
+                <a href="#slider-3"></a>
+            </div>
+        </div> 
+    </section>-->
+    <div class="jar">
+        <h2 class="promo-h2">In this season, find the best 🔥</h2>
+        <h1 class="promo-h">Exclusive collection for everyone</h1>
+        <button type="button" class="button-2">Explore now
+            <span class="mglass"><i class="fa-solid fa-magnifying-glass fa-lg"></span></i> </button>
+        <img src="slide-1.jpg" class="First-promo" alt="">
+    </div>
+
+    <!------------------------2nd-promo---------------------------->
+    <h1 class="promo-hTwo">Discover more.<span class="txt2"> Good things are waiting for you</span></h1>
+    <div class="item-container">
+        <div class="item-card">
+            <div class="item-img">
+                <img src="t-shirt-1.jpg" class="item-thumb" alt="">
+                <div class="item-info">
+                    <h4 class="promo-h4">Explore new arrivals</h4>
+                    <p class="item-ads">Shop the latest from top brands</p>
+                    <button class="btm1" type="button">Show me all</button>
+                </div>
+            </div>
+        </div>
+        <div class="item-card">
+            <div class="item-img">
+                <img src="football-2.jpg" class="item-thumb" alt="">
+                <div class="item-info">
+                    <h4 class="promo-h4">Explore new arrivals</h4>
+                    <p class="item-ads">Shop the latest from top brands</p>
+                    <button class="btm1" type="button">Show me all</button>
+                </div>
+            </div>
+        </div>
+        <div class="item-card">
+            <div class="item-img">
+                <img src="hoodie-3.jpg" class="item-thumb" alt="">
+                <div class="item-info">
+                    <h4 class="promo-h4">Digital gift cards</h4>
+                    <p class="item-ads">Give the gift of choice</p>
+                    <button class="btm1" type="button">Show me all</button>
+                </div>
+            </div>
+        </div>
+        <div class="item-card">
+            <div class="item-img">
+                <img src="ast.png" class="item-thumb" alt="">
+                <div class="item-info">
+                    <h4 class="promo-h4">sale collection</h4>
+                    <p class="item-ads">Up to 80% off retail</p>
+                    <button class="btm1" type="button">Show me all</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--------------------------New Arrivals------------------------>
+    <h1 class="promo-hthree">New Arrivals.<span class="txt3"> REY backpacks & bags</span></h1>
+
+    <section class="New-Arrivals">
+        <div class="New-Arrivals-container">
+            <div class="New-Arrivals-card">
+                <div class="New-Arrivals-img">
+                    <img src="boot.jpg" class="item-thumb" alt="">
+                    <div class="item-info">
+                        <button onclick="Toggle1()" id="Newbtm1" class="Newbtm"><i
+                                class="fa-regular fa-heart fa-lg"></i></button>
+                        <p class="New-Arrivals-ads">Shop the latest from top brands</p>
+                    </div>
+                </div>
+                <div class="New-Arrivals-info">
+                    <h2 class="New-Arrivals-brand">brand</h2>
+                    <p class="New-Arrivals-short-description">a short line about the cloth..</p>
+                    <span class="New-Arrivals-price">$20</span><span class="New-Arrivals-actual-price">$40</span>
+                </div>
+
+            </div>
+
+            <div class="New-Arrivals-card">
+                <div class="New-Arrivals-img">
+                    <img src="pants.jpg" class="item-thumb" alt="">
+                    <div class="item-info">
+                        <button onclick="Toggle1()" id="Newbtm1" class="Newbtm"><i
+                                class="fa-regular fa-heart fa-lg"></i></button>
+                        <p class="New-Arrivals-ads">Shop the latest from top brands</p>
+                    </div>
+                </div>
+                <div class="New-Arrivals-info">
+                    <h2 class="New-Arrivals-brand">brand</h2>
+                    <p class="New-Arrivals-short-description">a short line about the cloth..</p>
+                    <span class="New-Arrivals-price">$20</span><span class="New-Arrivals-actual-price">$40</span>
+                </div>
+
+            </div>
+
+            <div class="New-Arrivals-card">
+                <div class="New-Arrivals-img">
+                    <img src="lego.jpg" class="item-thumb" alt="">
+                    <div class="item-info">
+                        <button onclick="Toggle1()" id="Newbtm1" class="Newbtm"><i
+                                class="fa-regular fa-heart fa-lg"></i></button>
+                        <p class="New-Arrivals-ads">Shop the latest from top brands</p>
+                    </div>
+                </div>
+                <div class="New-Arrivals-info">
+                    <h2 class="New-Arrivals-brand">brand</h2>
+                    <p class="New-Arrivals-short-description">a short line about the cloth..</p>
+                    <span class="New-Arrivals-price">$20</span><span class="New-Arrivals-actual-price">$40</span>
+                </div>
+
+            </div>
+            <div class="New-Arrivals-card">
+                <div class="New-Arrivals-img">
+                    <img src="bag.jpg" class="item-thumb" alt="">
+                    <div class="item-info">
+                        <button onclick="Toggle1()" id="Newbtm1" class="Newbtm"><i
+                                class="fa-regular fa-heart fa-lg"></i></button>
+                        <p class="New-Arrivals-ads">Shop the latest from top brands</p>
+                    </div>
+                </div>
+                <div class="New-Arrivals-info">
+                    <h2 class="New-Arrivals-brand">brand</h2>
+                    <p class="New-Arrivals-short-description">a short line about the cloth..</p>
+                    <span class="New-Arrivals-price">$20</span><span class="New-Arrivals-actual-price">$40</span>
+                </div>
+
+            </div>
+
+            <div class="New-Arrivals-card">
+                <div class="New-Arrivals-img">
+                    <img src="pants.jpg" class="item-thumb" alt="">
+                    <div class="item-info">
+                        <button onclick="Toggle1()" id="Newbtm1" class="Newbtm"><i
+                                class="fa-regular fa-heart fa-lg"></i></button>
+                        <p class="New-Arrivals-ads">Shop the latest from top brands</p>
+                    </div>
+                </div>
+                <div class="New-Arrivals-info">
+                    <h2 class="New-Arrivals-brand">brand</h2>
+                    <p class="New-Arrivals-short-description">a short line about the cloth..</p>
+                    <span class="New-Arrivals-price">$20</span><span class="New-Arrivals-actual-price">$40</span>
+                </div>
+            </div>
+            <div class="New-Arrivals-card">
+                <div class="New-Arrivals-img">
+                    <img src="pants.jpg" class="item-thumb" alt="">
+                    <div class="item-info">
+                        <button onclick="Toggle1()" id="Newbtm1" class="Newbtm"><i
+                                class="fa-regular fa-heart fa-lg"></i></button>
+                        <p class="New-Arrivals-ads">Shop the latest from top brands</p>
+                    </div>
+                </div>
+                <div class="New-Arrivals-info">
+                    <h2 class="New-Arrivals-brand">brand</h2>
+                    <p class="New-Arrivals-short-description">a short line about the cloth..</p>
+                    <span class="New-Arrivals-price">$20</span><span class="New-Arrivals-actual-price">$40</span>
+                </div>
+            </div>
+            <div class="New-Arrivals-card">
+                <div class="New-Arrivals-img">
+                    <img src="boot.jpg" class="item-thumb" alt="">
+                    <div class="item-info">
+                        <button onclick="Toggle1()" id="Newbtm1" class="Newbtm"><i
+                                class="fa-regular fa-heart fa-lg"></i></button>
+                        <p class="New-Arrivals-ads">Shop the latest from top brands</p>
+                    </div>
+                </div>
+                <div class="New-Arrivals-info">
+                    <h2 class="New-Arrivals-brand">brand</h2>
+                    <p class="New-Arrivals-short-description">a short line about the cloth..</p>
+                    <span class="New-Arrivals-price">$20</span><span class="New-Arrivals-actual-price">$40</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------step--------------------------------->
+    <section class="step">
+        <div class="step-container">
+            <div class="step-card">
+                <div class="step-img">
+                    <img src="step.jpg" class="step1img" alt="">
+                </div>
+                <div class="step-info">
+                    <h4 class="stepNo">Step-1</h4>
+                    <h2 class="stepintro">Filter & Discover</h2>
+                    <p class="step-descript">Smart filtering and suggestions make it easy to find</p>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-img">
+                    <img src="step1.jpg" class="step1img" alt="">
+                </div>
+                <div class="step-info">
+                    <h4 class="stepNo">Step-2</h4>
+                    <h2 class="stepintro">Add to bag</h2>
+                    <p class="step-descript">Easily select the correct items and add them to the cart</p>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-img">
+                    <img src="step2.jpg" class="step1img" alt="">
+                </div>
+                <div class="step-info">
+                    <h4 class="stepNo">Step-3</h4>
+                    <h2 class="stepintro">Fast shipping</h2>
+                    <p class="step-descript">The carrier will confirm and ship quickly to you</p>
+                </div>
+            </div>
+            <div class="step-card">
+                <div class="step-img">
+                    <img src="step3.jpg" class="step1img" alt="">
+                </div>
+                <div class="step-info">
+                    <h4 class="stepNo">Step-4</h4>
+                    <h2 class="stepintro">Enjoy the product</h2>
+                    <p class="step-descript">Have fun and enjoy your 5-star quality products</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------explor----------------------------->
+    <h1 class="explor-h1">Start exploring.</h1>
+    <div class="explor-nav">
+        <ul class="explor-ul">
+            <button class="explor-btm active" type="button"><a href="#Women"> Women</button></a>
+            <button class="explor-btm" type="button"><a href="#Men">Men</button></a>
+            <button class="explor-btm" type="button"><a href="#kids">Kids</button></a>
+            <button class="explor-btm" type="button"><a href="#Sports">Sports</button></a>
+            <button class="explor-btm" type="button"><a href="#Beauty">Beauty</button></a>
+            <button class="explor-btm" type="button"><a href="#Jewelry">Jewelry</button></a>
+        </ul>
+    </div>
+    <div class="explor-container">
+        <div class="row">
+
+            <div class="explor-card-1">
+                <div class="explor-siz">
+
+                    <img class="explor-img" src="Explor-bag-removebg-preview.png" alt="">
+                    <h4 class="explor-h4">Manufacturar</h4>
+                    <h2 class="explor-h2">Backpack</h2>
+                    <div class="explor-icon">See collection<i class="fa-solid fa-arrow-right fa-fade"
+                            style="color: #000000;"></i></div>
+                </div>
+            </div>
+
+            <div class="explor-card-1">
+                <div class="explor-siz">
+                    <img class="explor-img" src="explor-blanket.png" alt="">
+                    <h4 class="explor-h4">Manufacturar</h4>
+                    <h2 class="explor-h2">Recycled Blanket</h2>
+                    <div class="explor-icon">See collection<i class="fa-solid fa-arrow-right fa-fade"
+                            style="color: #000000;"></i></div>
+                </div>
+            </div>
+
+            <div class="explor-card-1">
+                <div class="explor-siz">
+                    <img class="explor-img" src="coat-removebg-preview.png" alt="">
+                    <h4 class="explor-h4">Manufacturar</h4>
+                    <h2 class="explor-h2">Coat</h2>
+                    <div class="explor-icon">See collection<i class="fa-solid fa-arrow-right fa-fade"
+                            style="color: #000000;"></i></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="explor-card-1">
+                    <div class="explor-siz">
+                        <img class="explor-img" src="explor-Jersey.png" alt="">
+                        <h4 class="explor-h4">Manufacturar</h4>
+                        <h2 class="explor-h2">Jersey</h2>
+                        <div class="explor-icon">See collection<i class="fa-solid fa-arrow-right fa-fade"
+                                style="color: #000000;"></i></div>
+                    </div>
+
+                </div>
+                <div class="explor-card-1">
+                    <div class="explor-siz">
+                        <img class="explor-img" src="explor-shoes.png" alt="">
+                        <h4 class="explor-h4">Manufacturar</h4>
+                        <h2 class="explor-h2">Shoes</h2>
+                        <div class="explor-icon">See collection<i class="fa-solid fa-arrow-right fa-fade"
+                                style="color: #000000;"></i></div>
+                    </div>
+
+                </div>
+                <div class="explor-card-1">
+                    <div class="explor-siz">
+                        <img class="explor-img" src="explor-short.png" alt="">
+                        <h4 class="explor-h4">Manufacturar</h4>
+                        <h2 class="explor-h2">Cycling Shorts</h2>
+                        <div class="explor-icon">See collection<i class="fa-solid fa-arrow-right fa-fade"
+                                style="color: #000000;"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------seller------------------------------->
+    <h1 class="promo">Best Sellers. <span class="txt4"> selling of the month</span></h1>
+    <!---------------------------cards------------------------------>
+    <section class="product">
+        <button class="pre-btn"><img src="angle-right.png" alt=""></button>
+        <button class="nxt-btn"><img src="angle-right.png""></button>
+      <div class=" product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="model-1.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="model-2.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="model-3.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="model-4.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="model-1.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="model-2.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">brand</h2>
+                    <p class="product-short-description">a short line about the cloth..</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            </div>
+    </section>
+    <!------------------------------------Poster--------------------------------------------------->
+    <div class="Poster-container">
+        <div class="poster-card">
+            <h1 class="Poster-h1">Special offer<br>
+                in kids products</h1>
+            <h4 class="poster-h4">Fashion is a form of self-expression and autonomy<br> at a particular period and
+                place.</h4>
+            <button class="Poster-btm" type="button">Discover more</button>
+            
+
+
+        </div>
+    </div>
+</body>
+
+</html>
